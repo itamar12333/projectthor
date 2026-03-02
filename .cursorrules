@@ -1,0 +1,4 @@
+# Project Thor — Cursor rules
+
+- When analyzing websites for compliance (GDPR, CCPA, Israeli privacy), **always base your analysis on the file `legal-base.md`** in the project root. Use it as the single source of legal requirements and citations.
+- Do not invent or cite legal provisions that are not listed in `legal-base.md` or in the official documentation of GDPR (EU), CCPA (California), or Israeli Privacy Protection Authority.

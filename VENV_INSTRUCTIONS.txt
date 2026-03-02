@@ -1,0 +1,42 @@
+========================================
+  הפעלת Virtual Environment (venv)
+========================================
+
+הבעיה: ב-PowerShell הפקודה venv\Scripts\activate לא עובדת.
+
+פתרונות:
+
+----------------------------------------
+פתרון 1: שימוש ב-Command Prompt (cmd)
+----------------------------------------
+1. פתח Command Prompt (לא PowerShell)
+2. הרץ:
+   cd c:\Users\itamar\Desktop\Project-Thor
+   venv\Scripts\activate.bat
+
+----------------------------------------
+פתרון 2: PowerShell - עם הנתיב המלא
+----------------------------------------
+.\venv\Scripts\Activate.ps1
+
+אם יש שגיאת Execution Policy, הרץ קודם:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+----------------------------------------
+פתרון 3: לא צריך venv!
+----------------------------------------
+אתה יכול להריץ את התוכנה בלי venv.
+פשוט השתמש ב:
+- OPEN_DASHBOARD.bat
+- FIX_AND_RUN.bat
+- RUN_GENERATE_POLICIES.bat
+
+הם עובדים עם Python הגלובלי.
+
+----------------------------------------
+פתרון 4: פתיחת CMD עם venv מופעל
+----------------------------------------
+לחץ פעמיים על: ACTIVATE_VENV.bat
+זה יפתח חלון CMD עם ה-venv מופעל.
+
+========================================

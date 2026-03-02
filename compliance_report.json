@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-02-19T19:03:36.683724",
+  "business_name": "Your Business",
+  "checks": [
+    {
+      "id": "refund-policy",
+      "name": "Refund Policy",
+      "description": "EU requires clear refund/return policy for consumers",
+      "status": "fail",
+      "regulation": "EU Consumer Rights Directive",
+      "finding": "No refund or return policy detected. Required for EU sales.",
+      "recommendation": "Add a visible refund policy. Consider 14-day right of withdrawal for distance sales.",
+      "severity": "high"
+    },
+    {
+      "id": "privacy-policy",
+      "name": "Privacy Policy",
+      "description": "GDPR Article 13 requires privacy notice when collecting personal data",
+      "status": "fail",
+      "regulation": "GDPR",
+      "finding": "No privacy policy detected. Mandatory for any data collection.",
+      "recommendation": "Add privacy policy with: what data you collect, legal basis, retention, rights (access, erasure, portability).",
+      "severity": "critical"
+    },
+    {
+      "id": "cookie-consent",
+      "name": "Cookie Consent",
+      "description": "ePrivacy Directive requires consent for non-essential cookies",
+      "status": "warning",
+      "regulation": "ePrivacy / GDPR",
+      "finding": "No cookie policy or consent mechanism detected.",
+      "recommendation": "Add cookie banner with opt-in for non-essential cookies. Document in privacy policy.",
+      "severity": "medium"
+    }
+  ],
+  "summary": {
+    "fail": 2,
+    "warning": 1
+  },
+  "overall_status": "fail"
+}
